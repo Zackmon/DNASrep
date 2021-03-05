@@ -1,6 +1,9 @@
 # DNASrep
-DNAS replacement server
+DNAS replacement server to be used for .hack//fragment Netslum Server connetion 
 
-This is a small setup to run your own DNAS service for Playstation 2. The scripts basically replay packets that were captured by the DNAS forever project.
+best way is to use the docker image included , just remeber to edi the server IP in the file dbs_files/db.dnas.rpz
 
-MCrypt has been removed with PHP 7.2. This version of DNASrep takes care of this problem by using OpenSSL instead.
+Special Thanks to FogNo23 and hashsploit as I used thier repo as a base for this 
+
+https://github.com/FogNo23/DNASrep/
+https://github.com/hashsploit/clank-dnas
